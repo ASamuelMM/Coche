@@ -23,7 +23,7 @@ class Motor{
 
 	public String toString(){
 		String resultadoM = "MOTOR: Apagado";
-		if (encendido == true){
+		if (encendido){
 			resultadoM = "MOTOR: Encendido";
 		}
 		return resultadoM;

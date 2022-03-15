@@ -29,7 +29,7 @@ class Puerta{
 
 	public String toString(){
 		String resultadoP = "Puerta: Cerrada";
-		if (estado == true){
+		if (estado){
 			resultadoP = "Puerta: Abierta";
 		}
 		return resultadoP + " | " + ventanaPuerta;

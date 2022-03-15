@@ -30,7 +30,7 @@ class Ventana{
 
 	public String toString(){
 		String resultadoV = "VENTANA: Cerrada";
-		if (abierta == true){
+		if (abierta){
 			resultadoV = "VENTANA: Abierta";
 		}
 		return resultadoV;
